@@ -1,0 +1,3 @@
+-r common.txt
+-r mo.txt
+uWSGI==2.0.21

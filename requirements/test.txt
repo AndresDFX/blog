@@ -1,0 +1,13 @@
+-r common.txt
+mixer
+flake8
+safety
+coverage<5.0.0
+pytest==6.2.5
+pytest-django
+pytest-bdd
+pytest-cov
+pytest-pythonpath
+pytest-env
+django_coverage_plugin
+isort==5.8.0
