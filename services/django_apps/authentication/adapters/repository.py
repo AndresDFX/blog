@@ -6,13 +6,13 @@ from typing import Dict, List, Optional
 from django.contrib.auth.models import Group, User
 from django.core import exceptions as django_exceptions
 from django.core.exceptions import ValidationError
-# Libraries
-from mo_manage.shared.exceptions import ObjectDoesNotExist
+
 
 # Internal
 from services.domain.authentication import constants
 from services.domain.authentication.adapters.repository import \
     AbstractUserRepository
+from services.shared.exceptions import ObjectDoesNotExist
 
 logger = logging.getLogger(__name__)
 

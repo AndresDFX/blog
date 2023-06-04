@@ -8,4 +8,5 @@ pyyaml<7,>=6.0
 pyjwt
 django-filter==22.1
 
+Pillow
 
